@@ -56,7 +56,7 @@ else
 fi
 
 rm -f "/workspace/A【必看】面板常见问题解决.txt" /workspace/server.properties
-[ -f "/workspace/启动脚本(可修改).sh" ] && mv "/workspace/启动脚本(可修改).sh" /workspace/startup.sh
+echo 'cd /workspace' >> ~/.bashrc
 
 echo "配置完成！"
 
